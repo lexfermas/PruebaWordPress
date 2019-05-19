@@ -20,13 +20,13 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="site-navigation">
+    <nav class="site-navigation" id="Navbar">
         <div class="site-navigation-inner site-container">
             <img src="<?php bloginfo('template_directory'); ?>/./images/site-logo.png" alt="site logo">
             <div class="main-navigation">
                 <ul class="main-navigation__ul">
-                    <li><a href="pagehome.php">Homepage</a></li>
-                    <li><a href="<?php bloginfo('template_directory'); ?>/page1.php">Page 1</a></li>
+                    <li><a href="index.php">Homepage</a></li>
+                    <li><a href="page1.php">Page 1</a></li>
                     <li><a href="page2.php">Page 2</a></li>
                     <li><a href="page3.php">Page 3</a></li>
                     <li><a href="page4.php">Page 4</a></li>
